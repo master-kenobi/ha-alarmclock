@@ -20,6 +20,3 @@ input_boolean: !include input_boolean.yaml
 
 ### Input Slider ###
 input_slider: !include input_slider.yaml
-
-### Notification ###
-notify: !include notify.yaml
