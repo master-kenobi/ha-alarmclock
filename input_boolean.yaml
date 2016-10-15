@@ -1,0 +1,4 @@
+alarmweekday:
+  name: Weekdays Only
+  initial: off
+  icon: mdi:calendar
