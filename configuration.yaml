@@ -1,0 +1,25 @@
+###################@@@@@#################################
+#                                                       #
+#   Sample only. Put your complete configuration here   #
+#                                                       #
+#########################################################
+
+###  Sensors  ###
+#  Sensors are anything (hardware or software) that has a state.
+sensor: !include_dir_merge_list sensors
+
+### Automation ###
+automation: !include_dir_merge_list automation
+
+###  Groups  ###
+group: !include group.yaml
+
+### Input Boolean ###
+# The input_boolean component allows the user to define boolean values that can be controlled via the frontend and can be used within conditions of automation.
+input_boolean: !include input_boolean.yaml
+
+### Input Slider ###
+input_slider: !include input_slider.yaml
+
+### Notification ###
+notify: !include notify.yaml
