@@ -8,6 +8,6 @@ alarmclock:
   entities: 
     - automation.wake_me_up
     - sensor.alarm_time
-    - input_slider.alarmhour
-    - input_slider.alarmminutes
+    - input_number.alarmhour
+    - input_number.alarmminutes
     - input_boolean.alarmweekday
