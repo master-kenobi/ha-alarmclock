@@ -18,5 +18,5 @@ group: !include group.yaml
 # The input_boolean component allows the user to define boolean values that can be controlled via the frontend and can be used within conditions of automation.
 input_boolean: !include input_boolean.yaml
 
-### Input Slider ###
-input_slider: !include input_slider.yaml
+### Input Number ###
+input_number: !include input_number.yaml
